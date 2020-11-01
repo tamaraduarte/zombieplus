@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="novo_filme.test copy"
+    errors="1" failures="0" hostname="" id="" package="novo_filme.test copy" skipped="0"
+    tests="1" time="0.002000" timestamp="">
+  
+    <testcase name="quando eu faço o cadastro do filme" classname="novo_filme.test copy" time="0.002000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: browser.page.movie is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config[0m
+[0;90m       at Object.quandoEuFaOOCadastroDoFilme [as quando eu faço o cadastro do filme] (/Users/tamara/Documents/qaninja/zombieplus/tests/cadastro/novo_filme.test copy.js:30:34)
+       at processTicksAndRejections (internal/process/task_queues.js:94:5)[0m
+[0;31m  TypeError: browser.page.movie is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config[0m
+[0;90m       at Object.quandoEuFaOOCadastroDoFilme [as quando eu faço o cadastro do filme] (/Users/tamara/Documents/qaninja/zombieplus/tests/cadastro/novo_filme.test.js:30:34)
+       at processTicksAndRejections (internal/process/task_queues.js:94:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

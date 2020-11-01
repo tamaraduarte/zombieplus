@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="senha_incorreta.test"
+    errors="0" failures="0" hostname="" id="" package="senha_incorreta.test" skipped="0"
+    tests="1" time="2.028" timestamp="">
+  
+    <testcase name="Senha incorreta" classname="senha_incorreta.test" time="2.028" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

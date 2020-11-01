@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="novo_filme.test"
+    errors="1" failures="0" hostname="" id="" package="novo_filme.test" skipped="1"
+    tests="1" time="3.508" timestamp="">
+  
+    <testcase name="quando eu faço o cadastro do filme" classname="novo_filme.test" time="3.508" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: this.setValue(...).pause(...).assert.atributeContains is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.[0m
+[0;90m       at Page.uploadCover (/Users/tamara/Documents/qaninja/zombieplus/pages/movie.js:31:25)
+       at Object.quandoEuFaOOCadastroDoFilme [as quando eu faço o cadastro do filme] (/Users/tamara/Documents/qaninja/zombieplus/tests/cadastro/novo_filme.test.js:40:14)
+       at processTicksAndRejections (internal/process/task_queues.js:94:5)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Então devo ver o filme na lista" classname="novo_filme.test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
